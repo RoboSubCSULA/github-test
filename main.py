@@ -1,7 +1,10 @@
-'''Driver fo the Test github program'''
+'''Driver to the Test github program'''
 
+def foo():
+	print("hello, foo")
 
 def hello_world():
+	foo()
     print('hello world')
 
 
