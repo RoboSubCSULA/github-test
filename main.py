@@ -2,6 +2,7 @@
 
 def foo():
 	print("hello, foo")
+	print("edit 2")
 
 def hello_world():
 	foo()
