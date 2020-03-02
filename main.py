@@ -1,13 +1,20 @@
 '''Driver to the Test github program'''
 
+
 def foo():
-	print("hello, foo")
+  print("hello, foo")
 	print("edit 2")
 
 def hello_world():
-	foo()
+    foo()
     print('hello world')
 
+def print_nums():
+    for i in range(5):
+        print(i)
 
 if __name__ == '__main__':
     hello_world()
+
+    print_nums()
+    
