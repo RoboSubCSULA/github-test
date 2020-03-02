@@ -2,8 +2,8 @@
 
 
 def foo():
-    print("hello, foo")
-
+  print("hello, foo")
+	print("edit 2")
 
 def hello_world():
     foo()
@@ -15,4 +15,6 @@ def print_nums():
 
 if __name__ == '__main__':
     hello_world()
+
     print_nums()
+    
